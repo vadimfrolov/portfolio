@@ -8,10 +8,12 @@
   color: #0d47a1;
 }
 
-.cardWrapper{
-  display:flex;
-  flex-wrap: nowrap;
+.cardEx {
+  margin-left: 1vw;
+  margin-top: 1vw;
+
 }
+
 
 .redW {
   color: #b71c1c;

@@ -47,10 +47,10 @@ const StyledButtonRight = withStyles({
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 245
+    maxWidth: "45vw"
   },
   media: {
-    height: 90
+    height: "15vh"
   },
 });
 
@@ -65,7 +65,7 @@ export default function About() {
         title="playlist"
           width="100%"
           className="playerContainer"
-          height="450"
+          height="350"
           scrolling="no"
           frameborder="no"
           allow="autoplay"
@@ -83,6 +83,7 @@ export default function About() {
         <h1>Some of my projects:</h1>
         <div className="cardWrapper">
         
+        <div className="cardEx">
             <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
@@ -114,7 +115,9 @@ export default function About() {
                 </a>
               </CardActions>
             </Card>
-       
+            </div>
+
+            <div className="cardEx">
             <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
@@ -145,6 +148,7 @@ export default function About() {
                 </a>
               </CardActions>
             </Card>
+            </div>
        
         </div>
         <h2>Tech:</h2>
