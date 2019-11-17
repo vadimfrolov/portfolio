@@ -7,7 +7,7 @@ https://vadimf.herokuapp.com/contacts
 
 ### Screenshots ###
 
-![logo png](https://i.pinimg.com/originals/ef/2e/0f/ef2e0f10480b0647c29ab175dfa54e2f.gif
+![logo png](https://i.pinimg.com/originals/ef/2e/0f/ef2e0f10480b0647c29ab175dfa54e2f.gif)
 
 
 # Technologies:
