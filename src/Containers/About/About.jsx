@@ -73,7 +73,7 @@ export default function About() {
         ></iframe>
         <div>
           <Link style={{ textDecoration: "none" }} to={`/`}>
-            <StyledButtonLeft>Main</StyledButtonLeft>
+            <StyledButtonLeft className="linkButton">Main</StyledButtonLeft>
           </Link>
         </div>
       </article>
@@ -109,7 +109,7 @@ export default function About() {
                   style={{ textDecoration: "none" }}
                   href={`https://unpluggedelbrus.herokuapp.com/`}
                 >
-                  <Button size="large" color="black">
+                  <Button  size="large" color="black">
                     Check site
                   </Button>
                 </a>
@@ -178,7 +178,7 @@ export default function About() {
 
         <div>
           {" "}
-          <Link style={{ textDecoration: 'none' }} to={`/contacts`}><StyledButtonRight>Contacts</StyledButtonRight></Link>
+          <Link style={{ textDecoration: 'none' }} to={`/contacts`}><StyledButtonRight className="linkButton">Contacts</StyledButtonRight></Link>
         </div>
       </article>
     </div>

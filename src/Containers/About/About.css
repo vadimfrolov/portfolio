@@ -14,6 +14,10 @@
 
 }
 
+.linkButton {
+  
+}
+
 
 .redW {
   color: #b71c1c;
@@ -39,7 +43,7 @@ img {
 
 .leftPart {
   grid-column: 1;
- 
+  vertical-align: middle;
 }
 
 .rightPart {
